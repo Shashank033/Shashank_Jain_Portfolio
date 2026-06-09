@@ -1,0 +1,23 @@
+{
+  "name": "Shashank Jain",
+  "profilePictureUrl": "images/pictures/profile-picture.jpg",
+  "resumePdfUrl": "Shashank_Jain_Software_Developer.pdf",
+
+  "statusCircleVisible": true,
+  "statusCircleVariant": "available",
+
+  "locales": {
+    "en": {
+      "localized_name": "Shashank Jain",
+      "localized_name_stylized": "{{Shashank}} Jain",
+
+      "roles": [
+        ".NET Developer",
+        "ASP.NET MVC Developer",
+        "ASP.NET Core Developer",
+        "React Developer",
+        "Software Developer"
+      ]
+    }
+  }
+}
