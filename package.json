@@ -5,7 +5,7 @@
     "type": "module",
     "scripts": {
         "dev": "vite",
-        "build": "vite build",
+        "build": "npm run build -- --outDir docs",
         "lint": "eslint .",
         "preview": "vite preview",
         "resume:make:article": "node npm/npm-resume-new-article.js",
