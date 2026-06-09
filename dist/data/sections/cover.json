@@ -1,0 +1,144 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Welcome!",
+                "title_short_nav": "About me",
+                "title_long_prefix": "Hello...",
+                "title_long": "I'm {{Shashank Jain}}, Software Developer"
+            }
+        }
+    },
+
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleInlineList",
+            "locales": {},
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc",
+                "display_as_list_if_width_is_lower_than": 380
+            },
+            "items": [
+                {
+    "id": 1,
+    "label": "Bhopal, Madhya Pradesh, India",
+    "link": {"href": "", "tooltipString": ""},
+    "faIcon": "pi pi-map-marker"
+},
+                {
+                    "id": 2,
+                    "label": "Shashankjain225485@gmail.com",
+                    "link": {"href": "mailto:Shashankjain225485@gmail.com", "tooltipString": "email_me"},
+                    "faIcon": "fa-regular fa-envelope"
+                },
+               {
+    "id": 3,
+    "label": "LinkedIn Profile",
+    "link": {
+        "href": "https://linkedin.com/in/shashank-jain-959b05a4",
+        "tooltipString": "open_website"
+    },
+    "faIcon": "fa-brands fa-linkedin"
+}
+            ]
+        },
+
+        {
+            "id": 2,
+            "component": "ArticleText",
+            "locales": {
+                "en": {"title": "{{A little bit}} about me..."}
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "images/pictures/about-texts-image-1.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {"text": "<p>I’m a passionate {{Software Developer}} with over [[4+ years of professional experience]] in ASP.NET MVC, C#, SQL Server, JavaScript, HTML, and CSS. I specialize in developing and maintaining enterprise-level government applications.</p><p>Currently working at MPOnline Ltd., I have contributed to major projects including MPPSC, OTR, and WCD portals. My experience includes application development, database management, Aadhaar eKYC integration, performance optimization, debugging, testing, and deployment.</p><p>I enjoy solving real-world problems through technology and continuously improving my technical expertise to deliver reliable and scalable software solutions. I look forward to collaborating [[with you!]]</p>"
+                    }
+                    }
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "component": "ArticleInfoList",
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "locales": {
+                "en": {"title": "Personal {{interests}}"}
+            },
+            "items": [
+                {
+    "id": 1,
+    "faIcon": "fa-solid fa-laptop-code",
+    "locales": {
+        "en": {
+            "title": "{{Technology}}",
+            "text": "Passionate about software development, emerging technologies, and continuous learning."
+        }
+    }
+},
+                {
+    "id": 2,
+    "faIcon": "fa-solid fa-book",
+    "locales": {
+        "en": {
+            "title": "{{Reading}}",
+            "text": "Enjoy reading technical articles, documentation, and technology-related content."
+        }
+    }
+},
+                {
+    "id": 3,
+    "faIcon": "fa-solid fa-pencil",
+    "locales": {
+        "en": {
+            "title": "{{Designing}} & Sketching",
+            "text": "Creative interest in sketching and visual design."
+        }
+    }
+},
+               {
+    "id": 4,
+    "faIcon": "fa-solid fa-futbol",
+    "locales": {
+        "en": {
+            "title": "{{Football}}",
+            "text": "State-level football player with a strong interest in sports and teamwork."
+        }
+    }
+},
+                {
+    "id": 5,
+    "faIcon": "fa-solid fa-lightbulb",
+    "locales": {
+        "en": {
+            "title": "{{Problem Solving}}",
+            "text": "Enjoy solving complex technical challenges and building efficient software solutions."
+        }
+    }
+},{
+    "id": 6,
+    "faIcon": "fa-solid fa-graduation-cap",
+    "locales": {
+        "en": {
+            "title": "{{Continuous Learning}}",
+            "text": "Actively learning .NET Core, modern development practices, and software architecture concepts."
+        }
+    }
+}
+            ]
+        }
+    ]
+}

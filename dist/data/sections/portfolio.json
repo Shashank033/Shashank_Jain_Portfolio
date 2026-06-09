@@ -1,0 +1,143 @@
+{
+  "title": {
+    "locales": {
+      "en": {
+        "title_short": "Portfolio",
+        "title_short_nav": "Portfolio",
+        "title_long_prefix": "Take a look at",
+        "title_long": "My {{Portfolio}}"
+      }
+    }
+  },
+  "articles": [
+    {
+      "id": 1,
+      "component": "ArticlePortfolio",
+      "locales": {
+        "en": {
+          "title": ""
+        }
+      },
+      "settings": {
+        "order_items_by": "id",
+        "order_items_sort": "asc"
+      },
+      "items": [
+        {
+          "id": 1,
+          "img": "images/pictures/project-mppsc.png",
+          "faIcon": "fa-solid fa-landmark",
+          "faIconColors": { "bg": "#0D6EFD", "fill": "#FFFFFF" },
+          "preview": {
+            "links": [],
+            "screenshots": [],
+            "screenshotsAspectRatio": "16:9",
+            "youtubeVideo": ""
+          },
+          "locales": {
+            "en": {
+              "title": "MPPSC Recruitment Portal",
+              "text": "Developed and maintained recruitment modules for the <b>Madhya Pradesh Public Service Commission (MPPSC)</b>. Worked on application forms, candidate registration, validation rules, optimization, testing, bug fixing, and deployment activities.",
+              "tags": [".NET MVC", "C#", "SQL Server", "JavaScript", "Government Project"]
+            }
+          }
+        },
+        {
+          "id": 2,
+          "img": "images/pictures/project-otr.png",
+          "faIcon": "fa-solid fa-id-card",
+          "faIconColors": { "bg": "#198754", "fill": "#FFFFFF" },
+          "preview": {
+            "links": [],
+            "screenshots": [],
+            "screenshotsAspectRatio": "16:9",
+            "youtubeVideo": ""
+          },
+          "locales": {
+            "en": {
+              "title": "One Time Registration (OTR)",
+              "text": "Worked on the OTR Portal for candidate registration. Implemented dynamic form generation, validation framework, Aadhaar eKYC integration, profile management, document upload, and database optimization.",
+              "tags": [".NET MVC", "ADO.NET", "SQL Server", "eKYC", "Aadhaar"]
+            }
+          }
+        },
+        {
+          "id": 3,
+          "img": "images/pictures/project-ekyc.png",
+          "faIcon": "fa-solid fa-fingerprint",
+          "faIconColors": { "bg": "#DC3545", "fill": "#FFFFFF" },
+          "preview": {
+            "links": [],
+            "screenshots": [],
+            "screenshotsAspectRatio": "16:9",
+            "youtubeVideo": ""
+          },
+          "locales": {
+            "en": {
+              "title": "Aadhaar eKYC Integration",
+              "text": "Implemented Aadhaar biometric and OTP-based eKYC verification modules. Integrated fingerprint devices, candidate verification workflows, and secure identity validation processes.",
+              "tags": ["Aadhaar", "eKYC", "Biometric", "JavaScript", "ASP.NET MVC"]
+            }
+          }
+        },
+        {
+          "id": 4,
+          "img": "images/pictures/project-wcd.png",
+          "faIcon": "fa-solid fa-users",
+          "faIconColors": { "bg": "#FD7E14", "fill": "#FFFFFF" },
+          "preview": {
+            "links": [],
+            "screenshots": [],
+            "screenshotsAspectRatio": "16:9",
+            "youtubeVideo": ""
+          },
+          "locales": {
+            "en": {
+              "title": "Women & Child Development (WCD)",
+              "text": "Participated in development, testing, and maintenance activities for WCD applications. Performed requirement analysis, bug fixing, unit testing, and production support.",
+              "tags": [".NET", "SQL Server", "Testing", "Support", "Government Project"]
+            }
+          }
+        },
+        {
+          "id": 5,
+          "img": "images/pictures/project-rule-engine.png",
+          "faIcon": "fa-solid fa-gears",
+          "faIconColors": { "bg": "#6F42C1", "fill": "#FFFFFF" },
+          "preview": {
+            "links": [],
+            "screenshots": [],
+            "screenshotsAspectRatio": "16:9",
+            "youtubeVideo": ""
+          },
+          "locales": {
+            "en": {
+              "title": "Dynamic Rule Engine",
+              "text": "Designed a configurable validation framework for dynamic application forms using rule-based processing. Reduced code duplication and improved maintainability of form validation logic.",
+              "tags": [".NET", "Rules Engine", "MVC", "Validation", "Architecture"]
+            }
+          }
+        },
+        {
+          "id": 6,
+          "img": "images/pictures/project-testing.png",
+          "faIcon": "fa-solid fa-bug",
+          "faIconColors": { "bg": "#20C997", "fill": "#FFFFFF" },
+          "preview": {
+            "links": [],
+            "screenshots": [],
+            "screenshotsAspectRatio": "16:9",
+            "youtubeVideo": ""
+          },
+          "locales": {
+            "en": {
+              "title": "Testing & Quality Assurance",
+              "text": "Performed unit testing, bug fixing, application verification, and deployment validation for multiple government recruitment systems and online application portals.",
+              "tags": ["Unit Testing", "Bug Fixing", "QA", "Deployment", "Support"]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

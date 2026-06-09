@@ -1,0 +1,208 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Life recently",
+                "title_short_nav": "Updates",
+                "title_long_prefix": "Take a look at my",
+                "title_long": "Recent {{Updates}}"
+            }
+        }
+    },
+
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleFacts",
+            "locales": {},
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+    {
+        "id": 1,
+        "img": null,
+        "faIcon": "fa-solid fa-briefcase",
+        "faIconColors": {"bg": "", "fill": ""},
+        "locales": {
+            "en": {
+                "title": "4+",
+                "text": "Years Experience"
+            }
+        }
+    },
+    {
+        "id": 2,
+        "img": null,
+        "faIcon": "fa-solid fa-landmark",
+        "faIconColors": {"bg": "", "fill": ""},
+        "locales": {
+            "en": {
+                "title": "10+",
+                "text": "Government Projects"
+            }
+        }
+    },
+    {
+        "id": 3,
+        "img": null,
+        "faIcon": "fa-solid fa-code",
+        "faIconColors": {"bg": "", "fill": ""},
+        "locales": {
+            "en": {
+                "title": ".NET",
+                "text": "Primary Technology"
+            }
+        }
+    },
+    {
+        "id": 4,
+        "img": null,
+        "faIcon": "fa-solid fa-database",
+        "faIconColors": {"bg": "", "fill": ""},
+        "locales": {
+            "en": {
+                "title": "SQL",
+                "text": "Database Expertise"
+            }
+        }
+    },
+    {
+        "id": 5,
+        "img": null,
+        "faIcon": "fa-solid fa-fingerprint",
+        "faIconColors": {"bg": "", "fill": ""},
+        "locales": {
+            "en": {
+                "title": "Aadhaar",
+                "text": "eKYC Integration"
+            }
+        }
+    },
+    {
+        "id": 6,
+        "img": null,
+        "faIcon": "fa-solid fa-vial",
+        "faIconColors": {"bg": "", "fill": ""},
+        "locales": {
+            "en": {
+                "title": "QA",
+                "text": "Testing & Validation"
+            }
+        }
+    }
+]
+        },
+
+        {
+            "id": 2,
+            "component": "ArticleThread",
+            "locales": {
+                "en": { "title": "Quick {{Facts}}" }
+            },
+            "settings": {
+                "max_rows_collapse_threshold": 3,
+                "order_items_by": "dateStart",
+                "order_items_sort": "desc"
+            },
+            "items": [
+               {
+    "id": 1,
+    "date": {"year": 2022, "month": 5},
+    "preview": {
+        "links": [],
+        "screenshots": [],
+        "screenshotsAspectRatio": "",
+        "youtubeVideo": ""
+    },
+    "locales": {
+        "en": {
+            "title": "Joined {{MPOnline Ltd.}}",
+            "province": "Bhopal",
+            "country": "India",
+            "institution": "MPOnline Ltd.",
+            "text": "Started my professional journey at MPOnline Ltd. as a Software Developer, contributing to large-scale government recruitment and citizen service applications using ASP.NET MVC, C#, JavaScript, and SQL Server."
+        }
+    }
+},
+                {
+    "id": 2,
+    "date": {"year": 2023, "month": 3},
+    "preview": {
+        "links": [],
+        "screenshots": [],
+        "screenshotsAspectRatio": "",
+        "youtubeVideo": ""
+    },
+    "locales": {
+        "en": {
+            "title": "Worked on {{MPPSC Recruitment Portal}}",
+            "province": "Bhopal",
+            "country": "India",
+            "institution": "MPOnline Ltd.",
+            "text": "Contributed to development, optimization, bug fixing, testing, and maintenance of MPPSC recruitment systems. Worked on candidate registration, application forms, and workflow improvements."
+        }
+    }
+},
+                {
+    "id": 3,
+    "date": {"year": 2024, "month": 4},
+    "preview": {
+        "links": [],
+        "screenshots": [],
+        "screenshotsAspectRatio": "",
+        "youtubeVideo": ""
+    },
+    "locales": {
+        "en": {
+            "title": "Implemented {{Aadhaar eKYC Integration}}",
+            "province": "Bhopal",
+            "country": "India",
+            "institution": "MPOnline Ltd.",
+            "text": "Successfully worked on Aadhaar authentication and biometric verification workflows, helping improve candidate identity verification and data accuracy."
+        }
+    }
+},
+               {
+    "id": 4,
+    "date": {"year": 2025, "month": 4},
+    "preview": {
+        "links": [],
+        "screenshots": [],
+        "screenshotsAspectRatio": "",
+        "youtubeVideo": ""
+    },
+    "locales": {
+        "en": {
+            "title": "Developing {{One Time Registration (OTR)}}",
+            "province": "Bhopal",
+            "country": "India",
+            "institution": "MPOnline Ltd.",
+            "text": "Working on the OTR Portal with dynamic form management, profile updates, document uploads, rule-based validations, and Aadhaar eKYC integration."
+        }
+    }
+},
+               {
+    "id": 5,
+    "date": {"year": 2025, "month": 6},
+    "preview": {
+        "links": [],
+        "screenshots": [],
+        "screenshotsAspectRatio": "",
+        "youtubeVideo": ""
+    },
+    "locales": {
+        "en": {
+            "title": "Earned {{Postman API Fundamentals Certification}}",
+            "province": "India",
+            "country": "India",
+            "institution": "Postman",
+            "text": "Completed the Postman API Fundamentals Student Expert certification, strengthening my API testing, debugging, and integration skills."
+        }
+    }
+}
+            ]
+        }
+    ]
+}
