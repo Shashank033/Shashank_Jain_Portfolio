@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-    base: '/react-portfolio-template/',
+    base: '/',
     plugins: [react()],
     build: {
         rollupOptions: {
@@ -17,7 +17,8 @@ export default defineConfig({
                     }
                 }
             }
-        }
+        },
+        outDir: 'docs'
     },
     css: {
         preprocessorOptions: {
